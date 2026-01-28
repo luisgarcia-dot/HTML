@@ -1,0 +1,16 @@
+body {
+    color: rgb(0, 0, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+#intro {
+    p:first-letter {
+        font-size: 26px;
+    }
+}
