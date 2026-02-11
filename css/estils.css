@@ -11,6 +11,25 @@ body {
     margin: 30px;
 }
 
+ul {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.articuloglo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.articulo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 @media (width < 600px) {
     body {
         p {
